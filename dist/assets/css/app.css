@@ -1,0 +1,77 @@
+.story {
+  border: 1px solid black;
+  padding: 20px 30px 10px 30px;
+  margin-bottom: 30px;
+  cursor: pointer; }
+  .story .story__title {
+    font-size: 20px;
+    margin-bottom: 30px; }
+    .story .story__title .story__link {
+      color: #000;
+      text-decoration: none; }
+      .story .story__title .story__link:hover {
+        color: red;
+        text-decoration: none; }
+  .story .story__text {
+    height: calc(100% - 50px);
+    font-size: 16px;
+    font-weight: 600;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .story .story_image-block {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    float: right;
+    margin-bottom: 30px; }
+  .story .story__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .story .story__info .story__data {
+      color: #98d4f0;
+      font-weight: 600; }
+    .story .story__info .story__views {
+      color: #878787;
+      font-weight: 600;
+      text-align: right; }
+      .story .story__info .story__views .story__eyes {
+        position: relative;
+        top: 1px;
+        width: auto;
+        height: 16px;
+        margin-right: 15px; }
+      .story .story__info .story__views .story__count {
+        font-size: 20px; }
+
+.story__link-hover-on {
+  color: red !important; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.p0 {
+  padding: 0 !important; }
+
+.main {
+  padding: 30px; }
+
+
+/*# sourceMappingURL=app.css.map*/
